@@ -10,23 +10,23 @@ This AWS DevOps project shows how to use a fully automated CI/CD pipeline to dep
 - **📦 Deploy Process:** By deploying images from ECR to ECS Fargate using CodePipeline, container management is made possible without the need to manage servers. 
 - **🔄 Automated Pipeline:** CodePipeline automates the release process by utilizing continuous deployment. 
 - **🔍 Manual Approval:** To guarantee regulated deployments, manual approval procedures are put in place inside the pipeline. 
-- *** Mistake Management:** Resolving deployment problems, such inadequate CPU usage, is necessary to keep deployment stability. 
+- **Mistake Management:** Resolving deployment problems, such inadequate CPU usage, is necessary to keep deployment stability. 
 
 #### Important Takeaways 
 
-- **🌞 Serverless: The orchestration configuration is streamlined and standardized by using the serverless ECS Fargate service for container management.
+- **🌞 Serverless:** The orchestration configuration is streamlined and standardized by using the serverless ECS Fargate service for container management.
 - **Security Version:** In order to manage code and track changes, CodeCommit keeps version histories and improves teamwork. 
-- **➙️ CI/CD Advantages:** CodePipeline accelerates deployment cycles and reduces manual errors in software releases, promoting an agile development environment. 
+- **CI/CD Advantages:** CodePipeline accelerates deployment cycles and reduces manual errors in software releases, promoting an agile development environment. 
 - **🐳 Docker Efficiency:** Docker containerization ensures consistency across many environments and makes application deployment and scaling on AWS easier. 
 - **🔒 Security Best Practices:** Ensuring that only authorized operations are carried out while granting essential access to services requires the proper IAM roles and permissions. 
-**👈 Deployment Monitoring:** Constant integration and monitoring with CloudWatch contribute to early detection of deployment problems and uphold application reliability. 
+- **❌ Error Handling:**  Constant integration and monitoring with CloudWatch contribute to early detection of deployment problems and uphold application reliability. 
 
 #### Tools and Technologies Used
 - **AWS CodePipeline:** Automates the deployment process by connecting many AWS services and orchestrating the complete CI/CD workflow.
 - **AWS CodeCommit:** Offers version control and collaborative tools in addition to acting as the source code repository.
 - **AWS CodeBuild:** Docker images are created and sent to ECR automatically as part of the build process. 
 - **AWS ECS:** Ensures effective container orchestration by managing the deployment of Docker images from ECR to ECS Fargate. 
-- ** Fargate:** Offers serverless container management, enabling the deployment and scaling of applications without requiring management of the underlying infrastructure. 
+- **Fargate:** Offers serverless container management, enabling the deployment and scaling of applications without requiring management of the underlying infrastructure. 
 - **Docker:** Containerization makes the application uniform and portable between various deployment environments. 
 - **IAM Roles and Permissions:** Maintain least privilege security while providing safe access control to AWS resources. 
 - **AWS CloudWatch:** Keeps an eye on installations, offering insights and early problem detection to preserve system health. 
