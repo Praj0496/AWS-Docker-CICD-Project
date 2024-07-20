@@ -1,0 +1,16 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Resource": [
+                "arn:aws:codebuild:us-east-1:<your_account_number>:project/simplehttp-cb"
+            ],
+            "Action": [
+                "codebuild:StartBuild",
+                "codebuild:StopBuild",
+                "codebuild:RetryBuild"
+            ]
+        }
+    ]
+}
