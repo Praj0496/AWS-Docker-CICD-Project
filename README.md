@@ -1,6 +1,10 @@
-### Project Description: Streamlined CI/CD Deployment with AWS DevOps Services and ECS Fargate
+# Project Description: Streamlined CI/CD Deployment with AWS DevOps Services and ECS Fargate
 
+### AWS-Docker-CI/CD-Project
 This AWS DevOps project shows how to use a fully automated CI/CD pipeline to deploy Docker images in a systematic manner. To guarantee smooth and effective application deployment, the project makes use of a number of AWS services, such as CodePipeline, CodeCommit, CodeBuild and ECS Fargate.
+
+#### Project Architecture
+![alt text](AWS-devops.drawio-transformed.png)
 
 #### Highlights 
 
@@ -42,3 +46,10 @@ This AWS DevOps project shows how to use a fully automated CI/CD pipeline to dep
 
 Through the use of Docker and ECS Fargate in an automated continuous integration and deployment pipeline, the project showcases a reliable and expandable approach to continuous deployment, capitalizing on the advantages of AWS services to improve productivity, security, and cooperation. 
 
+#### Project resources:
+
+- CI/CD on AWS: https://docs.aws.amazon.com/whitepapers/latest/cicd_for_5g_networks_on_aws/cicd-on-aws.html
+- Setting up for AWS CodeCommit: https://docs.aws.amazon.com/codecommit/latest/userguide/setting-up.html
+- Getting started with AWS CodeBuild: https://docs.aws.amazon.com/codebuild/latest/userguide/getting-started.html
+- Getting started with CodePipeline: https://docs.aws.amazon.com/codepipeline/latest/userguide/getting-started-codepipeline.html
+- Set up to use Amazon ECS: https://docs.aws.amazon.com/AmazonECS/latest/developerguide/get-set-up-for-amazon-ecs.html
